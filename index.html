@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>TimeForge</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <div class="sidebar">
+    <h2>TimeForge</h2>
+    <div id="drop" class="drop">拖拽文件到这里</div>
+  </div>
+
+  <div class="main">
+    <table>
+      <thead>
+        <tr>
+          <th>文件</th>
+          <th>当前时间</th>
+          <th>AI建议时间</th>
+        </tr>
+      </thead>
+      <tbody id="list"></tbody>
+    </table>
+  </div>
+
+  <div class="panel">
+    <button id="fixAll">⚡ 一键修复</button>
+  </div>
+</div>
+
+<script src="renderer.js"></script>
+</body>
+</html>
